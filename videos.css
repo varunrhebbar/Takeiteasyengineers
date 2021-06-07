@@ -1,0 +1,67 @@
+body{
+   background-color: rgb(53, 53, 53);
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+table {
+
+    font-family: Arial,Lucida Handwriting;
+    font-style: italic;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    }
+
+th {
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+
+}
+
+td,th {
+    border: 2px solid rgb(83, 80, 80); 
+    padding: 30px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgb(39, 39, 39);
+}
+#mytable tr td{
+    color: white;
+}
+#mytable tr td a:active,
+#mytable tr td  a:link,
+#mytable tr td  a:visited{
+   color: rgb(230, 230, 230);
+}
+
+
+#mytable tr:hover td{
+    background-color: #ddd;
+    color: black;
+}
+#mytable tr:hover td a:active,
+#mytable tr:hover td  a:link,
+#mytable tr:hover td  a:visited{
+   color: rgb(48, 48, 48);
+}
+@media only screen and (max-width: 800px) {
+    table {
+        width:96%;
+    }
+}

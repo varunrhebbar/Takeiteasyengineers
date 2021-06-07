@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(53, 53, 53);
+  font-family: "Merriweather", serif;
+}
+*{
+  color: white;
+}
+
+.varun div h2{
+  color: white;
+  margin-bottom: 40px;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 10px;
+  
+
+}
+figure{
+  text-align: center;
+}
+.varun img{
+
+  height:400px;
+  border-radius: 25px;
+  width: 600px;
+  transition: transform 1s;
+}
+
+figcaption{
+  margin: 40px 0;
+
+}
+
+.varun img:hover{
+  transform: scale(1.2);
+}
+.center{
+  text-align: center;
+  
+}
+figcaption{
+  color:white;
+ font-size: xx-large;
+
+}
+footer{
+  text-align: end;
+  margin-top: 20px;
+  height:50px;
+}
+.ahlist{
+  display:flex;
+  gap: 40px;
+  text-align: left;
+  margin: 0 40px;
+  
+}
+.ahlist h3{
+  margin: 20px 0;
+  font-weight: 800;
+}
+.ahlist ul li{
+  list-style-type: decimal-leading-zero;
+  line-height: 40px;
+}
+.award__container{
+  display: grid;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .varun img{
+     width: 80vw;
+    height: auto; 
+  }
+  .ahlist{
+    flex-direction: column;
+  }
+  
+}

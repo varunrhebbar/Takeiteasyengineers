@@ -1,0 +1,90 @@
+
+body{
+  background-color: rgb(70, 70, 70);
+  font-family: "Merriweather", serif;
+}
+
+table,
+td,
+th {
+  border: 2px solid rgb(48, 48, 48);
+  background-color: rgb(99, 99, 99);
+  padding: 0%;
+  color: #d9d9d9;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td {
+  text-align: center;
+}
+
+table  tr:nth-child(even) {
+  background-color: rgb(126, 126, 126);
+}
+
+table th{
+  background-color: rgba(80, 80, 80, 0);
+  color: #fcdd30;
+  padding: 30px;
+  width: max-content;
+  font-size: x-large;
+
+}
+table td{
+  background-color: rgba(80, 80, 80, 0);
+  
+}
+table thead{
+  background-color: rgb(80, 80, 80);
+}
+table tbody{
+  background-color: rgb(99, 99, 99);
+}
+
+
+table tbody tr:hover {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(48, 48, 48);
+}
+table tbody tr:hover td,
+table tbody tr:hover td a
+table tbody tr:hover td a:active,
+table tbody tr:hover td a:link,
+table tbody tr:hover td a:link
+{
+  color:rgb(36, 36, 36);
+}
+table tbody tr:hover td a:visited{
+  color:rgb(0, 217, 255)
+}
+table tbody tr:hover td a:hover{
+  color:rgb(250, 7, 7);
+  font-weight:600;
+}
+table tbody td a:active,
+table tbody td a:link,
+table tbody td a:link{
+  text-decoration: underline;
+  color: #ffffff;
+}
+table tbody td a:hover{
+  color:chartreuse;
+  font-weight:600;
+}
+table  td a:visited{
+  color:rgb(201, 233, 61)
+}
+h2 {
+  color:#fcdd30; ;
+  font-size: xx-large;
+}
+.div__center{
+    text-align: center;
+}
+
+
+
